@@ -5,7 +5,7 @@ import "./App.css";
 import Navbar from "./Components/Navbar";
 import TextForm from './Components/TextForm';
 //import {
- // BrowserRouter as Router,
+  //BrowserRouter as Router,
   //Routes,
   //Route,
 
@@ -25,7 +25,7 @@ function App(props) {
   }
   return (
     <>
-   {/* <Router>*/}
+    {/*<Router>*/}
       <Navbar  mode={mode} toggleMode={toggleMode}/>
       <div className="container my-3"
       style={{color: props.mode==='dark'?'white':'black'}}>
@@ -38,7 +38,7 @@ function App(props) {
      </Routes> */}
      <TextForm heading="Enter text to analyze"  mode={mode} />
         </div>
-        {/*</Router>*/}
+  {/*</Router>*/}
         
         
     </>
